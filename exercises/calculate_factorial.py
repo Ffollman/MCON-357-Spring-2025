@@ -11,7 +11,7 @@ def main():
         try:
             number = int(input("Enter a non-negative integer: "))
 
-        # handle negative input
+            # handle negative input
             if number < 0:
                 print("Error! To determine factorial, the number must be positive.")
             else:
