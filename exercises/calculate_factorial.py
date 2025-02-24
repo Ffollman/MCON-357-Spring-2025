@@ -36,7 +36,7 @@ def process_input(input_str):
     try:
         value = int(input_str)
         if value < 0:
-            return None, 'Error: Number cannot be negative'
+            return None, 'Error: Number cannot be negative' #error handling
         return value, ''
     except ValueError:
         return None, "Error: Input must be a non-negative integer"
